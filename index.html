@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="main.jsx"></script>
+    <script type="text/javascript" src="./thght.tsx"></script>
+    <script type="text/javascript" src="App.jsx"></script>
+
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+      
+        <div>
+          <h1>To do List</h1>
+          <form onSubmit={handleSubmit}>
+            <input type='text' value='Go Gym' onChange={handleChange}/>
+            <button onClick={handleSubmit}>Add</button>
+          </form>
+          <ul>
+              <li key={todo}>
+               <button>Delete</button>
+              </li>
+            
+             
+            
+          </ul>
+        </div>
+  
+    
+
+  
